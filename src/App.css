@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 30px;
+  overflow: hidden;
+}
+
+img{
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+img:hover{
+  transform: scale(1.1);
+  transition: all .5s;
 }
 
 .App-logo {
